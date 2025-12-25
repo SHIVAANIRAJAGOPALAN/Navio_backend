@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavioBackend", "NavioBackend.csproj", "{B3515AA7-7A7E-4E14-9EFE-55E6693B1C8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3515AA7-7A7E-4E14-9EFE-55E6693B1C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3515AA7-7A7E-4E14-9EFE-55E6693B1C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3515AA7-7A7E-4E14-9EFE-55E6693B1C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3515AA7-7A7E-4E14-9EFE-55E6693B1C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AB52AC0-605A-4023-B782-13430D32231D}
+	EndGlobalSection
+EndGlobal

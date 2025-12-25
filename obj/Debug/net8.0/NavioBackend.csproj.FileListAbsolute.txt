@@ -1,0 +1,415 @@
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\NavioBackend.csproj.AssemblyReference.cache
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\NavioBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\NavioBackend.AssemblyInfoInputs.cache
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\NavioBackend.AssemblyInfo.cs
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\NavioBackend.csproj.CoreCompileInputs.cache
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\appsettings.json
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\NavioBackend.staticwebassets.endpoints.json
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\NavioBackend.exe
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\NavioBackend.deps.json
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\NavioBackend.runtimeconfig.json
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Snappier.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Shivaani\source\repos\NavioBackend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\scopedcss\bundle\NavioBackend.styles.css
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\NavioBac.23D285C5.Up2Date
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\refint\NavioBackend.dll
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\NavioBackend.genruntimeconfig.cache
+C:\Users\Shivaani\source\repos\NavioBackend\obj\Debug\net8.0\ref\NavioBackend.dll
+C:\Users\gteep\Downloads\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.dll
+C:\Users\gteep\Downloads\NavioBackend\NavioBackend\obj\Debug\net8.0\refint\NavioBackend.dll
+C:\Users\gteep\Downloads\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\appsettings.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\NavioBackend.staticwebassets.endpoints.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\NavioBackend.exe
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\NavioBackend.deps.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\NavioBackend.runtimeconfig.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Snappier.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.csproj.AssemblyReference.cache
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.AssemblyInfoInputs.cache
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.AssemblyInfo.cs
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.csproj.CoreCompileInputs.cache
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\scopedcss\bundle\NavioBackend.styles.css
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBac.23D285C5.Up2Date
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\refint\NavioBackend.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\NavioBackend.genruntimeconfig.cache
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend\obj\Debug\net8.0\ref\NavioBackend.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend_final_fr_tdy\obj\Debug\net8.0\NavioBackend.csproj.AssemblyReference.cache
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend_final_fr_tdy\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend_final_fr_tdy\obj\Debug\net8.0\NavioBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend_final_fr_tdy\obj\Debug\net8.0\NavioBackend.AssemblyInfoInputs.cache
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend_final_fr_tdy\obj\Debug\net8.0\NavioBackend.AssemblyInfo.cs
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend_final_fr_tdy\obj\Debug\net8.0\NavioBackend.csproj.CoreCompileInputs.cache
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend_final_fr_tdy\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend_final_fr_tdy\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend_final_fr_tdy\obj\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend_final_fr_tdy\obj\Debug\net8.0\refint\NavioBackend.dll
+C:\Users\Shivaani\Downloads\NavioBackend_current\NavioBackend\NavioBackend_final_fr_tdy\obj\Debug\net8.0\NavioBackend.pdb
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\appsettings.Development.json
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\appsettings.json
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\NavioBackend.exe
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\NavioBackend.deps.json
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\NavioBackend.runtimeconfig.json
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\NavioBackend.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\NavioBackend.pdb
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\BCrypt.Net-Next.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\DnsClient.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\MongoDB.Bson.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\MongoDB.Driver.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\SharpCompress.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Snappier.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\ZstdSharp.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.csproj.AssemblyReference.cache
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.GeneratedMSBuildEditorConfig.editorconfig
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.AssemblyInfoInputs.cache
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.AssemblyInfo.cs
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.csproj.CoreCompileInputs.cache
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cs
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cache
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\staticwebassets.build.json
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\staticwebassets.development.json
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\staticwebassets\msbuild.NavioBackend.Microsoft.AspNetCore.StaticWebAssets.props
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\staticwebassets\msbuild.build.NavioBackend.props
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NavioBackend.props
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NavioBackend.props
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\staticwebassets.pack.json
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\scopedcss\bundle\NavioBackend.styles.css
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBac.23D285C5.Up2Date
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\refint\NavioBackend.dll
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.pdb
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.genruntimeconfig.cache
+F:\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\ref\NavioBackend.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\appsettings.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\NavioBackend.staticwebassets.endpoints.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\NavioBackend.exe
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\NavioBackend.deps.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\NavioBackend.runtimeconfig.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Snappier.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.csproj.AssemblyReference.cache
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.AssemblyInfoInputs.cache
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.AssemblyInfo.cs
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.csproj.CoreCompileInputs.cache
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\scopedcss\bundle\NavioBackend.styles.css
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBac.23D285C5.Up2Date
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\refint\NavioBackend.dll
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\NavioBackend.genruntimeconfig.cache
+C:\Users\Shivaani\Downloads\Navio\Navio\NavioBackend_aravinda\NavioBackend_aravinda\obj\Debug\net8.0\ref\NavioBackend.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\appsettings.Development.json
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\appsettings.json
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.staticwebassets.endpoints.json
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.exe
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.deps.json
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.runtimeconfig.json
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.pdb
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\DnsClient.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\SharpCompress.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Snappier.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Navio\Navio\NavioBackend_final_\bin\Debug\net8.0\ZstdSharp.dll
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.csproj.AssemblyReference.cache
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.AssemblyInfoInputs.cache
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.AssemblyInfo.cs
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.csproj.CoreCompileInputs.cache
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cs
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cache
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\scopedcss\bundle\NavioBackend.styles.css
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\staticwebassets.build.json
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\staticwebassets.development.json
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBac.23D285C5.Up2Date
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.dll
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\refint\NavioBackend.dll
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.pdb
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.genruntimeconfig.cache
+D:\Navio\Navio\NavioBackend_final_\obj\Debug\net8.0\ref\NavioBackend.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\appsettings.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.staticwebassets.endpoints.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.exe
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.deps.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.runtimeconfig.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Snappier.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.csproj.AssemblyReference.cache
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.AssemblyInfoInputs.cache
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.AssemblyInfo.cs
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.csproj.CoreCompileInputs.cache
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\scopedcss\bundle\NavioBackend.styles.css
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBac.23D285C5.Up2Date
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\refint\NavioBackend.dll
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\NavioBackend.genruntimeconfig.cache
+C:\Users\Shivaani\Downloads\Navio_veda_ver\Navio\NavioBackend_final_\obj\Debug\net8.0\ref\NavioBackend.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\appsettings.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\NavioBackend.staticwebassets.endpoints.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\NavioBackend.exe
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\NavioBackend.deps.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\NavioBackend.runtimeconfig.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\NavioBackend.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\NavioBackend.pdb
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\DnsClient.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Snappier.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.csproj.AssemblyReference.cache
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.AssemblyInfoInputs.cache
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.AssemblyInfo.cs
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.csproj.CoreCompileInputs.cache
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.sourcelink.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\scopedcss\bundle\NavioBackend.styles.css
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBac.23D285C5.Up2Date
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\refint\NavioBackend.dll
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.pdb
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.genruntimeconfig.cache
+C:\Users\ashmi\OneDrive\Desktop\project\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\ref\NavioBackend.dll
+C:\Users\Shivaani\Downloads\project1 (1)\project1\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.csproj.AssemblyReference.cache
+C:\Users\Shivaani\Downloads\project1 (1)\project1\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Shivaani\Downloads\project1 (1)\project1\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shivaani\Downloads\project1 (1)\project1\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.AssemblyInfoInputs.cache
+C:\Users\Shivaani\Downloads\project1 (1)\project1\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.AssemblyInfo.cs
+C:\Users\Shivaani\Downloads\project1 (1)\project1\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\Downloads\project1 (1)\project1\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\refint\NavioBackend.dll
+C:\Users\Shivaani\Downloads\project1 (1)\project1\navio-smart-routing\Navio_Backend\obj\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\appsettings.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\NavioBackend.staticwebassets.endpoints.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\NavioBackend.exe
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\NavioBackend.deps.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\NavioBackend.runtimeconfig.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Snappier.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\NavioBackend.csproj.AssemblyReference.cache
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\NavioBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\NavioBackend.AssemblyInfoInputs.cache
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\NavioBackend.AssemblyInfo.cs
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\NavioBackend.csproj.CoreCompileInputs.cache
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\NavioBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\scopedcss\bundle\NavioBackend.styles.css
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\NavioBac.23D285C5.Up2Date
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\NavioBackend.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\refint\NavioBackend.dll
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\NavioBackend.pdb
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\NavioBackend.genruntimeconfig.cache
+C:\Users\Shivaani\Downloads\Navio_Backend (2)\Navio_Backend\obj\Debug\net8.0\ref\NavioBackend.dll

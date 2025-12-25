@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\DTOs",
+    "\\Interfaces",
+    "\\Models",
+    "\\Repository",
+    "\\Services"
+  ],
+  "SelectedNode": "\\Controllers\\TripsController.cs",
+  "PreviewInSolutionExplorer": false
+}

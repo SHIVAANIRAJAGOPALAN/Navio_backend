@@ -1,0 +1,517 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\Truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\TruckRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repository\\TruckRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\FleetController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\FleetController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\FleetManagersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\FleetManagersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\TruckCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\TruckCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repository\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Interfaces\\ITruckRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\ITruckRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AssignAssetsDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\AssignAssetsDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\TransferAssetsDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\TransferAssetsDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AssignTrucksDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\AssignTrucksDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AssignDriversDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\AssignDriversDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\DriversController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\DriversController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\Driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\CargoType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\CargoType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repository\\.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\CargoTypeRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repository\\CargoTypeRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\CargoTypesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CargoTypesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Interfaces\\ICargoTypeRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\ICargoTypeRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Services\\DatabaseSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\DatabaseSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\CargoTypeUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\CargoTypeUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\CargoTypeCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\CargoTypeCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\FleetManagerCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\FleetManagerCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\FleetManagerUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\FleetManagerUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Interfaces\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\DriverCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\DriverCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AuthDTOs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\AuthDTOs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\DriverUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\DriverUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TruckRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\TruckRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TruckRepository.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\TruckRepository.cs",
+              "RelativeToolTip": "Repository\\TruckRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:33:26.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FleetController.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\FleetController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FleetController.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\FleetController.cs",
+              "RelativeToolTip": "Controllers\\FleetController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:02:00.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\Truck.cs",
+              "RelativeDocumentMoniker": "Models\\Truck.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\Truck.cs",
+              "RelativeToolTip": "Models\\Truck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:31:53.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FleetManagersController.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\FleetManagersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FleetManagersController.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\FleetManagersController.cs",
+              "RelativeToolTip": "Controllers\\FleetManagersController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAgwHIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:14:03.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TruckCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\TruckCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TruckCreateDto.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\TruckCreateDto.cs",
+              "RelativeToolTip": "DTOs\\TruckCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:59:09.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:54:39.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Repository\\UserRepository.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAAAA0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:47:09.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssignAssetsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AssignAssetsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AssignAssetsDto.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AssignAssetsDto.cs",
+              "RelativeToolTip": "DTOs\\AssignAssetsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T20:10:43.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITruckRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Interfaces\\ITruckRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITruckRepository.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Interfaces\\ITruckRepository.cs",
+              "RelativeToolTip": "Interfaces\\ITruckRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:32:39.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssignTrucksDto.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AssignTrucksDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AssignTrucksDto.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AssignTrucksDto.cs",
+              "RelativeToolTip": "DTOs\\AssignTrucksDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:15:47.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AssignDriversDto.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AssignDriversDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AssignDriversDto.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AssignDriversDto.cs",
+              "RelativeToolTip": "DTOs\\AssignDriversDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:15:32.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TransferAssetsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\TransferAssetsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TransferAssetsDto.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\TransferAssetsDto.cs",
+              "RelativeToolTip": "DTOs\\TransferAssetsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T20:12:15.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:39:59.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\Driver.cs",
+              "RelativeDocumentMoniker": "Models\\Driver.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\Driver.cs",
+              "RelativeToolTip": "Models\\Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T18:02:47.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DriversController.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\DriversController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DriversController.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\DriversController.cs",
+              "RelativeToolTip": "Controllers\\DriversController.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAYwOQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T18:32:45.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CargoType.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\CargoType.cs",
+              "RelativeDocumentMoniker": "Models\\CargoType.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Models\\CargoType.cs",
+              "RelativeToolTip": "Models\\CargoType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:41:47.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": ".cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\.cs",
+              "RelativeDocumentMoniker": "Repository\\.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\.cs",
+              "RelativeToolTip": "Repository\\.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:47:00.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CargoTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\CargoTypeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CargoTypeRepository.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Repository\\CargoTypeRepository.cs",
+              "RelativeToolTip": "Repository\\CargoTypeRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:46:42.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CargoTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\CargoTypesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CargoTypesController.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\CargoTypesController.cs",
+              "RelativeToolTip": "Controllers\\CargoTypesController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:47:20.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwDwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:38:01.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICargoTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Interfaces\\ICargoTypeRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICargoTypeRepository.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Interfaces\\ICargoTypeRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICargoTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:46:11.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DatabaseSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Services\\DatabaseSettings.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseSettings.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Services\\DatabaseSettings.cs",
+              "RelativeToolTip": "Services\\DatabaseSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:51:00.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CargoTypeUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\CargoTypeUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CargoTypeUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\CargoTypeUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\CargoTypeUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:45:33.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CargoTypeCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\CargoTypeCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CargoTypeCreateDto.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\CargoTypeCreateDto.cs",
+              "RelativeToolTip": "DTOs\\CargoTypeCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:43:45.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FleetManagerCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\FleetManagerCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\FleetManagerCreateDto.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\FleetManagerCreateDto.cs",
+              "RelativeToolTip": "DTOs\\FleetManagerCreateDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:14:42.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FleetManagerUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\FleetManagerUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\FleetManagerUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\FleetManagerUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\FleetManagerUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:15:07.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-08T15:54:26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:45:20.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DriverCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\DriverCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DriverCreateDto.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\DriverCreateDto.cs",
+              "RelativeToolTip": "DTOs\\DriverCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T19:29:55.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AuthDTOs.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthDTOs.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\AuthDTOs.cs",
+              "RelativeToolTip": "DTOs\\AuthDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:43:43.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DriverUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\DriverUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DriverUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Shivaani\\Downloads\\NavioBackend_current\\NavioBackend\\NavioBackend\\DTOs\\DriverUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\DriverUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T19:31:56.53Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
