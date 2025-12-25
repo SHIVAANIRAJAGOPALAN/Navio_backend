@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NavioBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76c1a36ce9a4233d3efbf6ceca2aa0ed40448803")]
 [assembly: System.Reflection.AssemblyProductAttribute("NavioBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NavioBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
