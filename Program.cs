@@ -123,7 +123,7 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins(
             "http://localhost:3001",
-            "http://navio-frontend.s3-website.ap-south-2.amazonaws.com"
+            "https://d2pc2fcjp1n1vb.cloudfront.net"
         )
         .AllowAnyHeader()
         .AllowAnyMethod()

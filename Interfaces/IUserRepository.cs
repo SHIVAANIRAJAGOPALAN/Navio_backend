@@ -27,7 +27,8 @@ namespace NavioBackend.Interfaces
         // Delete user by ID
         Task<bool> DeleteAsync(string id);
 
-        Task ClearAssignedFleetManagerAsync(string userId);
+        Task UpdateFleetManagerAssignmentAsync(string driverId, string? fleetManagerId);
+
 
     }
 }

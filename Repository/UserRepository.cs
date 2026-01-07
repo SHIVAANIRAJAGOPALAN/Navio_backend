@@ -278,7 +278,7 @@ namespace NavioBackend.Repository
                 user.AssignedTruckIds = new List<string>();
 
                 // Default FM password
-                user.PasswordHash = BCrypt.Net.BCrypt.HashPassword("fleetmanager123");
+                user.PasswordHash = Hash("fleetmanager123");
 
             }
             else if (user.Role == "Admin")
@@ -310,29 +310,22 @@ namespace NavioBackend.Repository
             existing.Phone = incoming.Phone ?? existing.Phone;
             existing.Status = incoming.Status ?? existing.Status;
 
-            // 🔐 PASSWORD UPDATE (FIX)
+            // 🔐 PASSWORD UPDATE
             if (!string.IsNullOrWhiteSpace(incoming.PasswordHash))
             {
-                // Hash new password
-                using var sha = SHA256.Create();
-                existing.PasswordHash = Convert.ToHexString(
-                    sha.ComputeHash(Encoding.UTF8.GetBytes(incoming.PasswordHash))
-                ).ToLower();
+                existing.PasswordHash = incoming.PasswordHash;
             }
 
             // DRIVER FIELDS
             if (existing.Role == "Driver")
             {
                 existing.Truck = incoming.Truck ?? existing.Truck;
-                existing.AssignedFleetManagerId = incoming.AssignedFleetManagerId ?? existing.AssignedFleetManagerId;
             }
 
             // FLEET MANAGER FIELDS
-            if (existing.Role == "FleetManager")
-            {
-                existing.AssignedDriverIds = incoming.AssignedDriverIds ?? existing.AssignedDriverIds;
-                existing.AssignedTruckIds = incoming.AssignedTruckIds ?? existing.AssignedTruckIds;
-            }
+            // DO NOTHING for FleetManager assignment lists
+            // They are derived, not persisted
+
 
             await _users.ReplaceOneAsync(u => u.Id == id, existing);
             return true;
@@ -350,16 +343,18 @@ namespace NavioBackend.Repository
             return result.DeletedCount > 0;
         }
 
-        public async Task ClearAssignedFleetManagerAsync(string userId)
+        public async Task UpdateFleetManagerAssignmentAsync(string driverId, string? fleetManagerId)
         {
-            if (!ObjectId.TryParse(userId, out _))
+            if (!ObjectId.TryParse(driverId, out _))
                 return;
 
-            var filter = Builders<User>.Filter.Eq(u => u.Id, userId);
             var update = Builders<User>.Update
-                .Set(u => u.AssignedFleetManagerId, null);
+                .Set(u => u.AssignedFleetManagerId, fleetManagerId);
 
-            await _users.UpdateOneAsync(filter, update);
+            await _users.UpdateOneAsync(
+                u => u.Id == driverId && u.Role == "Driver",
+                update
+            );
         }
 
     }

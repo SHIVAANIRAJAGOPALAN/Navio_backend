@@ -77,27 +77,12 @@ if (!string.IsNullOrWhiteSpace(reqRole) &&
         if (!string.IsNullOrWhiteSpace(user.PasswordHash))
         {
             bool passwordMatches = false;
-
-            if (user.PasswordHash.StartsWith("$2"))
-            {
-                try
-                {
-                    passwordMatches = BCrypt.Net.BCrypt.Verify(req.Password ?? string.Empty, user.PasswordHash);
-                }
-                catch (Exception ex)
-                {
-                    return StatusCode(500, new { message = "Server error verifying bcrypt password.", error = ex.Message });
-                }
-            }
-            else
-            {
                 // SHA-256 hex compare (matches your UserRepository.Hash implementation)
                 using var sha = System.Security.Cryptography.SHA256.Create();
                 var pwBytes = System.Text.Encoding.UTF8.GetBytes(req.Password ?? string.Empty);
                 var hashBytes = sha.ComputeHash(pwBytes);
                 var hex = System.Convert.ToHexString(hashBytes).ToLower();
                 passwordMatches = string.Equals(hex, user.PasswordHash, StringComparison.OrdinalIgnoreCase);
-            }
 
             if (!passwordMatches)
                 return Unauthorized(new { message = "Incorrect password." });
@@ -124,6 +109,19 @@ if (!string.IsNullOrWhiteSpace(reqRole) &&
         return StatusCode(500, new { message = "Server error during login.", error = ex.Message });
     }
 }
+
+[Authorize]
+[HttpGet("validate")]
+public IActionResult ValidateToken()
+{
+    return Ok(new
+    {
+        valid = true,
+        userId = User.FindFirst("userId")?.Value,
+        role = User.FindFirst(ClaimTypes.Role)?.Value
+    });
+}
+
 
         private string GenerateToken(User user)
         {
@@ -159,6 +157,8 @@ public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordDto dto
         return BadRequest(new { message = "Invalid payload" });
     }
 
+    Console.WriteLine("Input current pwd: "+dto.CurrentPassword);
+    Console.WriteLine("Input neww pwd: "+dto.NewPassword);
     var userId = User.FindFirst("userId")?.Value;
     if (userId == null)
         return Unauthorized();
@@ -169,27 +169,27 @@ public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordDto dto
 
     // Verify current password
     bool matches = false;
-
-    if (user.PasswordHash.StartsWith("$2"))
-    {
-        matches = BCrypt.Net.BCrypt.Verify(dto.CurrentPassword, user.PasswordHash);
-    }
-    else
-    {
         using var sha = System.Security.Cryptography.SHA256.Create();
         var hash = Convert.ToHexString(
             sha.ComputeHash(System.Text.Encoding.UTF8.GetBytes(dto.CurrentPassword))
         ).ToLower();
-
+        Console.WriteLine("Input current pwd hash: "+hash);
+        Console.WriteLine("Stored pwd hash: "+user.PasswordHash);
         matches = hash == user.PasswordHash;
-    }
 
     if (!matches)
         return BadRequest(new { message = "Current password is incorrect" });
 
     // Update password (hash inside repository logic)
     //user.PasswordHash = dto.NewPassword;
-    user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.NewPassword);
+    using var sha2 = System.Security.Cryptography.SHA256.Create();
+user.PasswordHash = Convert.ToHexString(
+    sha2.ComputeHash(
+        System.Text.Encoding.UTF8.GetBytes(dto.NewPassword)
+    )
+).ToLower();
+Console.WriteLine("Input new pwd hash: "+user.PasswordHash);
+
 
     var updated = await _userRepo.UpdateAsync(userId, user);
     if (!updated)

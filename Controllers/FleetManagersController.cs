@@ -15,15 +15,18 @@ namespace NavioBackend.Controllers
         private readonly IUserRepository _userRepo;
         private readonly ITruckRepository _truckRepo;
         private readonly IActivityLogsRepository _logsRepo;
+        private readonly ITripRepository _tripRepo;
 
         public FleetManagersController(
             IUserRepository userRepo,
             ITruckRepository truckRepo,
-            IActivityLogsRepository logsRepo)
+            IActivityLogsRepository logsRepo,
+            ITripRepository tripRepo)
         {
             _userRepo = userRepo;
             _truckRepo = truckRepo;
             _logsRepo = logsRepo;
+            _tripRepo = tripRepo;
         }
 
         // -------------------------------------------------------------------------
@@ -33,6 +36,8 @@ namespace NavioBackend.Controllers
         public async Task<IActionResult> GetAll()
         {
             var list = await _userRepo.GetByRoleAsync("FleetManager");
+            var drivers = await _userRepo.GetByRoleAsync("Driver");
+            var trucks = await _truckRepo.GetAllAsync();
 
             var shaped = list.Select(fm => new
             {
@@ -41,10 +46,18 @@ namespace NavioBackend.Controllers
                 email = fm.Email,
                 phone = fm.Phone,
                 status = fm.Status,
-                assignedDriverIds = fm.AssignedDriverIds ?? new List<string>(),
-                assignedTruckIds = fm.AssignedTruckIds ?? new List<string>(),
-                assignedDriversCount = fm.AssignedDriverIds?.Count ?? 0,
-                assignedTrucksCount = fm.AssignedTruckIds?.Count ?? 0
+                assignedDriverIds = drivers
+        .Where(d => d.AssignedFleetManagerId == fm.Id)
+        .Select(d => d.Id)
+        .ToList(),
+
+                assignedTruckIds = trucks
+        .Where(t => t.AssignedFleetManagerId == fm.Id)
+        .Select(t => t.Id)
+        .ToList(),
+
+                assignedDriversCount = drivers.Count(d => d.AssignedFleetManagerId == fm.Id),
+                assignedTrucksCount = trucks.Count(t => t.AssignedFleetManagerId == fm.Id)
             });
 
             return Ok(shaped);
@@ -63,6 +76,20 @@ namespace NavioBackend.Controllers
             if (fm == null || !fm.Role.Equals("FleetManager", StringComparison.OrdinalIgnoreCase))
                 return NotFound(new { message = "Fleet manager not found" });
 
+            var drivers = await _userRepo.GetByRoleAsync("Driver");
+            var trucks = await _truckRepo.GetAllAsync();
+
+            var assignedDriverIds = drivers
+                .Where(d => d.AssignedFleetManagerId == fm.Id)
+                .Select(d => d.Id)
+                .ToList();
+
+            var assignedTruckIds = trucks
+                .Where(t => t.AssignedFleetManagerId == fm.Id)
+                .Select(t => t.Id)
+                .ToList();
+
+
             return Ok(new
             {
                 id = fm.Id,
@@ -72,10 +99,10 @@ namespace NavioBackend.Controllers
                 phone = fm.Phone,
                 status = fm.Status,
                 role = fm.Role,
-                assignedDriverIds = fm.AssignedDriverIds ?? new List<string>(),
-                assignedTruckIds = fm.AssignedTruckIds ?? new List<string>(),
-                assignedDriversCount = fm.AssignedDriverIds?.Count ?? 0,
-                assignedTrucksCount = fm.AssignedTruckIds?.Count ?? 0
+                assignedDriverIds,
+                assignedTruckIds,
+                assignedDriversCount = assignedDriverIds.Count,
+                assignedTrucksCount = assignedTruckIds.Count
             });
         }
 
@@ -90,70 +117,40 @@ namespace NavioBackend.Controllers
             if (fm == null || !fm.Role.Equals("FleetManager", StringComparison.OrdinalIgnoreCase))
                 return NotFound(new { message = "Fleet manager not found" });
 
-            var driverIds = fm.AssignedDriverIds ?? new List<string>();
-            var truckIds = fm.AssignedTruckIds ?? new List<string>();
+            var drivers = (await _userRepo.GetByRoleAsync("Driver"))
+    .Where(d => d.AssignedFleetManagerId == fm.Id)
+    .Select(d => new
+    {
+        id = d.Id,
+        name = d.FullName,
+        email = d.Email,
+        phone = d.Phone,
+        status = d.Status,
+        truck = d.Truck,
+        driverId = d.DriverId,
+        lastLogin = d.LastLogin
+    })
+    .ToList();
 
-            // --- drivers (keep as before, include LastLogin if present) ---
-            var drivers = new List<object>();
-            foreach (var did in driverIds)
-            {
-                var d = await _userRepo.GetByIdAsync(did);
-                if (d == null) continue;
-
-                drivers.Add(new
-                {
-                    id = d.Id,
-                    name = d.FullName,
-                    email = d.Email,
-                    phone = d.Phone,
-                    status = d.Status,
-                    truck = d.Truck,
-                    driverId = d.DriverId,
-                    // LastLogin is DateTime on your User model; include it directly (frontend can format)
-                    lastLogin = d.LastLogin
-                });
-            }
-
-            // --- trucks: return exact fields frontend expects ---
-            var trucks = new List<object>();
-            foreach (var tid in truckIds)
-            {
-                var t = await _truckRepo.GetByIdAsync(tid);
-                if (t == null) continue;
-
-                // Note: Truck model (Truck.cs) has properties:
-                //   public string TruckNumber { get; set; }
-                //   public double Length { get; set; }
-                //   public double Width { get; set; }
-                //   public double Height { get; set; }
-                //   [BsonElement("CapacityLbs")] public int Capacity { get; set; }
-                //   public string CapacityUnit { get; set; } = "lbs";
-                //   public string? BodyType { get; set; }
-                //   public string? DutyClass { get; set; }
-                //
-                // We map those to the frontend shape (Length/Width/Height camel-preserved as requested).
-
-                trucks.Add(new
+            var trucks = (await _truckRepo.GetAllAsync())
+                .Where(t => t.AssignedFleetManagerId == fm.Id)
+                .Select(t => new
                 {
                     id = t.Id,
-                    number = t.TruckNumber ?? t.TruckNumber, // map TruckNumber -> number
-                    // dimensions (non-nullable on model so return values directly)
+                    number = t.TruckNumber,
                     Length = t.Length,
                     Width = t.Width,
                     Height = t.Height,
-
-                    // capacity (Capacity property maps to CapacityLbs in DB)
-                    capacity = (object)t.Capacity,     // boxed to allow JSON nullability if needed by serializer
+                    capacity = (object)t.Capacity,
                     capacityUnit = t.CapacityUnit ?? "lbs",
-
                     bodyType = t.BodyType,
                     dutyClass = t.DutyClass,
-
                     status = t.Status ?? "Unknown"
-                });
-            }
+                })
+                .ToList();
 
             return Ok(new { drivers, trucks });
+
         }
 
 
@@ -177,8 +174,8 @@ namespace NavioBackend.Controllers
                 Phone = dto.Phone,
                 Status = dto.Status ?? "Active",
                 Role = "FleetManager",
-                AssignedDriverIds = dto.AssignedDriverIds ?? new List<string>(),
-                AssignedTruckIds = dto.AssignedTruckIds ?? new List<string>(),
+                AssignedDriverIds = new List<string>(),
+                AssignedTruckIds = new List<string>(),
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword("f")
             };
 
@@ -210,8 +207,8 @@ namespace NavioBackend.Controllers
                 email = created.Email,
                 phone = created.Phone,
                 status = created.Status,
-                assignedDriverIds = created.AssignedDriverIds ?? new List<string>(),
-                assignedTruckIds = created.AssignedTruckIds ?? new List<string>(),
+                // assignedDriverIds = created.AssignedDriverIds ?? new List<string>(),
+                // assignedTruckIds = created.AssignedTruckIds ?? new List<string>(),
                 assignedDriversCount = created.AssignedDriverIds?.Count ?? 0,
                 assignedTrucksCount = created.AssignedTruckIds?.Count ?? 0
             });
@@ -237,8 +234,6 @@ namespace NavioBackend.Controllers
                 Email = dto.Email ?? existing.Email,
                 Phone = dto.Phone ?? existing.Phone,
                 Status = dto.Status ?? existing.Status,
-                AssignedDriverIds = dto.AssignedDriverIds ?? existing.AssignedDriverIds,
-                AssignedTruckIds = dto.AssignedTruckIds ?? existing.AssignedTruckIds
             };
 
             await _userRepo.UpdateAsync(id, incoming);
@@ -270,8 +265,8 @@ namespace NavioBackend.Controllers
                 email = refreshed.Email,
                 phone = refreshed.Phone,
                 status = refreshed.Status,
-                assignedDriverIds = refreshed.AssignedDriverIds ?? new List<string>(),
-                assignedTruckIds = refreshed.AssignedTruckIds ?? new List<string>()
+                // assignedDriverIds = refreshed.AssignedDriverIds ?? new List<string>(),
+                // assignedTruckIds = refreshed.AssignedTruckIds ?? new List<string>()
             });
         }
 
@@ -282,73 +277,49 @@ namespace NavioBackend.Controllers
         [Authorize]
         public async Task<IActionResult> AssignDrivers(string id, [FromBody] AssignAssetsDto dto)
         {
-            if (!ObjectId.TryParse(id, out _)) return BadRequest("Invalid ID");
-            if (dto?.DriverIds == null) return BadRequest("driverIds required");
-
             var fm = await _userRepo.GetByIdAsync(id);
-            if (fm == null || !fm.Role.Equals("FleetManager", StringComparison.OrdinalIgnoreCase))
+            if (fm == null || fm.Role != "FleetManager")
                 return NotFound();
 
-            var newIds = dto.DriverIds.Distinct().ToList();
-            var oldIds = fm.AssignedDriverIds ?? new List<string>();
-
-            var toAdd = newIds.Except(oldIds).ToList();
-            var toRemove = oldIds.Except(newIds).ToList();
+            var drivers = await _userRepo.GetByRoleAsync("Driver");
 
             var userId = User.FindFirst("userId")?.Value;
             var email = User.FindFirst(ClaimTypes.Email)?.Value;
             var role = User.FindFirst(ClaimTypes.Role)?.Value;
 
-            // ---------- UNASSIGN REMOVED DRIVERS ----------
-            foreach (var did in toRemove)
+            // UNASSIGN drivers removed from this FM
+            foreach (var d in drivers.Where(d =>
+                d.AssignedFleetManagerId == fm.Id &&
+                !dto.DriverIds.Contains(d.Id)))
             {
-                var d = await _userRepo.GetByIdAsync(did);
-                if (d == null || d.Role != "Driver") continue;
+                await _userRepo.UpdateFleetManagerAssignmentAsync(d.Id, null);
 
-                if (d.AssignedFleetManagerId == fm.Id)
+                if (userId != null && email != null && role != null)
                 {
-                    await _userRepo.ClearAssignedFleetManagerAsync(did);
-
-
-                    if (userId != null && email != null && role != null)
+                    await _logsRepo.CreateAsync(new ActivityLog
                     {
-                        await _logsRepo.CreateAsync(new ActivityLog
-                        {
-                            Timestamp = DateTime.UtcNow,
-                            Action = "driver unassign",
-                            EntityType = "driver",
-                            EntityId = d.Id,
-                            UserId = userId,
-                            UserName = email,
-                            Message =
-                                $"{email} ({role} : id({userId})) unassigned driver {d.FullName} (id:{d.Id}) from fleet manager {fm.FullName} (id:{fm.Id})"
-                        });
-                    }
+                        Timestamp = DateTime.UtcNow,
+                        Action = "driver unassign",
+                        EntityType = "driver",
+                        EntityId = d.Id,
+                        UserId = userId,
+                        UserName = email,
+                        Message =
+                            $"{email} ({role} : id({userId})) unassigned driver {d.FullName} (id:{d.Id}) from fleet manager {fm.FullName} (id:{fm.Id})"
+                    });
                 }
             }
 
-            // ---------- ASSIGN NEW DRIVERS ----------
-            foreach (var did in toAdd)
+            // ASSIGN selected drivers
+            foreach (var did in dto.DriverIds)
             {
-                var d = await _userRepo.GetByIdAsync(did);
-                if (d == null || d.Role != "Driver") continue;
+                var d = drivers.FirstOrDefault(x => x.Id == did);
 
-                // remove from previous FM if needed
-                if (!string.IsNullOrEmpty(d.AssignedFleetManagerId) &&
-                    d.AssignedFleetManagerId != fm.Id)
-                {
-                    var prevFm = await _userRepo.GetByIdAsync(d.AssignedFleetManagerId);
-                    if (prevFm != null)
-                    {
-                        var cleaned = (prevFm.AssignedDriverIds ?? new List<string>())
-                                    .Where(x => x != d.Id).ToList();
-                        await _userRepo.UpdateAsync(prevFm.Id,
-                            new User { AssignedDriverIds = cleaned });
-                    }
-                }
-
-                await _userRepo.UpdateAsync(did,
-                    new User { AssignedFleetManagerId = fm.Id });
+                if (d == null)
+                    continue;
+                if (d.AssignedFleetManagerId == fm.Id)
+                    continue;
+                await _userRepo.UpdateFleetManagerAssignmentAsync(did, fm.Id);
 
                 if (userId != null && email != null && role != null)
                 {
@@ -366,11 +337,8 @@ namespace NavioBackend.Controllers
                 }
             }
 
-            // ---------- REPLACE FM LIST ----------
-            await _userRepo.UpdateAsync(fm.Id,
-                new User { AssignedDriverIds = newIds });
-
             return Ok(true);
+
         }
 
 
@@ -381,69 +349,49 @@ namespace NavioBackend.Controllers
         [Authorize]
         public async Task<IActionResult> AssignTrucks(string id, [FromBody] AssignAssetsDto dto)
         {
-            if (!ObjectId.TryParse(id, out _)) return BadRequest("Invalid ID");
-            if (dto?.TruckIds == null) return BadRequest("truckIds required");
-
             var fm = await _userRepo.GetByIdAsync(id);
-            if (fm == null || !fm.Role.Equals("FleetManager", StringComparison.OrdinalIgnoreCase))
+            if (fm == null || fm.Role != "FleetManager")
                 return NotFound();
 
-            var newIds = dto.TruckIds.Distinct().ToList();
-            var oldIds = fm.AssignedTruckIds ?? new List<string>();
-
-            var toAdd = newIds.Except(oldIds).ToList();
-            var toRemove = oldIds.Except(newIds).ToList();
+            var allTrucks = await _truckRepo.GetAllAsync();
 
             var userId = User.FindFirst("userId")?.Value;
             var email = User.FindFirst(ClaimTypes.Email)?.Value;
             var role = User.FindFirst(ClaimTypes.Role)?.Value;
 
-            // ---------- UNASSIGN REMOVED TRUCKS ----------
-            foreach (var tid in toRemove)
+            // UNASSIGN removed trucks
+            foreach (var t in allTrucks.Where(t =>
+                t.AssignedFleetManagerId == fm.Id &&
+                !dto.TruckIds.Contains(t.Id)))
             {
-                var t = await _truckRepo.GetByIdAsync(tid);
-                if (t == null) continue;
+                await _truckRepo.AssignToFleetManagerAsync(t.Id, null);
 
-                if (t.AssignedFleetManagerId == fm.Id)
+                if (userId != null && email != null && role != null)
                 {
-                    await _truckRepo.AssignToFleetManagerAsync(tid, null);
-
-                    if (userId != null && email != null && role != null)
+                    await _logsRepo.CreateAsync(new ActivityLog
                     {
-                        await _logsRepo.CreateAsync(new ActivityLog
-                        {
-                            Timestamp = DateTime.UtcNow,
-                            Action = "truck unassign",
-                            EntityType = "fleet",
-                            EntityId = t.Id,
-                            UserId = userId,
-                            UserName = email,
-                            Message =
-                                $"{email} ({role} : id({userId})) unassigned truck {t.TruckNumber} (id:{t.Id}) from fleet manager {fm.FullName} (id:{fm.Id})"
-                        });
-                    }
+                        Timestamp = DateTime.UtcNow,
+                        Action = "truck unassign",
+                        EntityType = "fleet",
+                        EntityId = t.Id,
+                        UserId = userId,
+                        UserName = email,
+                        Message =
+                            $"{email} ({role} : id({userId})) unassigned truck {t.TruckNumber} (id:{t.Id}) from fleet manager {fm.FullName} (id:{fm.Id})"
+                    });
                 }
             }
 
-            // ---------- ASSIGN NEW TRUCKS ----------
-            foreach (var tid in toAdd)
+            // ASSIGN selected trucks
+            foreach (var tid in dto.TruckIds)
             {
-                var t = await _truckRepo.GetByIdAsync(tid);
-                if (t == null) continue;
+                var t = allTrucks.FirstOrDefault(x => x.Id == tid);
+                if (t == null)
+                    continue;
 
-                // cleanup previous FM
-                if (!string.IsNullOrEmpty(t.AssignedFleetManagerId) &&
-                    t.AssignedFleetManagerId != fm.Id)
-                {
-                    var prevFm = await _userRepo.GetByIdAsync(t.AssignedFleetManagerId);
-                    if (prevFm != null)
-                    {
-                        var cleaned = (prevFm.AssignedTruckIds ?? new List<string>())
-                                    .Where(x => x != t.Id).ToList();
-                        await _userRepo.UpdateAsync(prevFm.Id,
-                            new User { AssignedTruckIds = cleaned });
-                    }
-                }
+                // 🚫 already assigned → skip
+                if (t.AssignedFleetManagerId == fm.Id)
+                    continue;
 
                 await _truckRepo.AssignToFleetManagerAsync(tid, fm.Id);
 
@@ -463,11 +411,8 @@ namespace NavioBackend.Controllers
                 }
             }
 
-            // ---------- REPLACE FM LIST ----------
-            await _userRepo.UpdateAsync(fm.Id,
-                new User { AssignedTruckIds = newIds });
-
             return Ok(true);
+
         }
 
 
@@ -478,38 +423,23 @@ namespace NavioBackend.Controllers
         [Authorize]
         public async Task<IActionResult> TransferAssets([FromBody] TransferAssetsDto dto)
         {
-            if (dto == null) return BadRequest("Invalid payload");
-
             var source = await _userRepo.GetByIdAsync(dto.SourceManagerId);
             var target = await _userRepo.GetByIdAsync(dto.TargetManagerId);
-            if (source == null || target == null) return NotFound();
+
+            if (source == null || target == null)
+                return NotFound();
 
             var userId = User.FindFirst("userId")?.Value;
             var email = User.FindFirst(ClaimTypes.Email)?.Value;
             var role = User.FindFirst(ClaimTypes.Role)?.Value;
 
-            // ---------- TRANSFER DRIVERS ----------
+            // TRANSFER DRIVERS
             foreach (var did in dto.Drivers ?? new List<string>())
             {
+                await _userRepo.UpdateFleetManagerAssignmentAsync(did, target.Id);
                 var d = await _userRepo.GetByIdAsync(did);
-                if (d == null || d.Role != "Driver") continue;
 
-                // remove from source FM
-                var srcDrivers = (source.AssignedDriverIds ?? new List<string>())
-                                .Where(x => x != d.Id).ToList();
-                await _userRepo.UpdateAsync(source.Id,
-                    new User { AssignedDriverIds = srcDrivers });
-
-                // add to target FM
-                var tgtDrivers = (target.AssignedDriverIds ?? new List<string>());
-                if (!tgtDrivers.Contains(d.Id)) tgtDrivers.Add(d.Id);
-                await _userRepo.UpdateAsync(target.Id,
-                    new User { AssignedDriverIds = tgtDrivers });
-
-                await _userRepo.UpdateAsync(d.Id,
-                    new User { AssignedFleetManagerId = target.Id });
-
-                if (userId != null && email != null && role != null)
+                if (d != null && userId != null && email != null && role != null)
                 {
                     await _logsRepo.CreateAsync(new ActivityLog
                     {
@@ -525,25 +455,14 @@ namespace NavioBackend.Controllers
                 }
             }
 
-            // ---------- TRANSFER TRUCKS ----------
+
+            // TRANSFER TRUCKS
             foreach (var tid in dto.Trucks ?? new List<string>())
             {
-                var t = await _truckRepo.GetByIdAsync(tid);
-                if (t == null) continue;
-
-                var srcTrucks = (source.AssignedTruckIds ?? new List<string>())
-                                .Where(x => x != t.Id).ToList();
-                await _userRepo.UpdateAsync(source.Id,
-                    new User { AssignedTruckIds = srcTrucks });
-
-                var tgtTrucks = (target.AssignedTruckIds ?? new List<string>());
-                if (!tgtTrucks.Contains(t.Id)) tgtTrucks.Add(t.Id);
-                await _userRepo.UpdateAsync(target.Id,
-                    new User { AssignedTruckIds = tgtTrucks });
-
                 await _truckRepo.AssignToFleetManagerAsync(tid, target.Id);
+                var t = await _truckRepo.GetByIdAsync(tid);
 
-                if (userId != null && email != null && role != null)
+                if (t != null && userId != null && email != null && role != null)
                 {
                     await _logsRepo.CreateAsync(new ActivityLog
                     {
@@ -560,44 +479,158 @@ namespace NavioBackend.Controllers
             }
 
             return Ok(true);
+
         }
 
 
         // -------------------------------------------------------------------------
         // DELETE /api/fleet-managers/{id}
+        // Policy:
+        // - Unassign drivers
+        // - Unassign trucks
+        // - Cancel ONLY upcoming trips
+        // - Ignore other trip statuses
         // -------------------------------------------------------------------------
         [HttpDelete("{id}")]
         [Authorize]
         public async Task<IActionResult> Delete(string id)
         {
-            if (!ObjectId.TryParse(id, out _)) return BadRequest("Invalid ID");
+            if (!ObjectId.TryParse(id, out _))
+                return BadRequest("Invalid ID");
 
-            var existing = await _userRepo.GetByIdAsync(id);
-            if (existing == null || !existing.Role.Equals("FleetManager", StringComparison.OrdinalIgnoreCase))
+            var fm = await _userRepo.GetByIdAsync(id);
+            if (fm == null || !fm.Role.Equals("FleetManager", StringComparison.OrdinalIgnoreCase))
                 return NotFound();
 
-            await _userRepo.DeleteAsync(id);
+            var actorUserId = User.FindFirst("userId")?.Value;
+            var actorEmail = User.FindFirst(ClaimTypes.Email)?.Value;
+            var actorRole = User.FindFirst(ClaimTypes.Role)?.Value;
 
-            var userId = User.FindFirst("userId")?.Value;
-            var email = User.FindFirst(ClaimTypes.Email)?.Value;
-            var role = User.FindFirst(ClaimTypes.Role)?.Value;
 
-            if (userId != null && email != null && role != null)
+            // ------------------------------------------------------------
+            // 1. Unassign drivers
+            // ------------------------------------------------------------
+            var drivers = await _userRepo.GetByRoleAsync("Driver");
+            var affectedDrivers = drivers
+                .Where(d => d.AssignedFleetManagerId == fm.Id)
+                .ToList();
+
+            foreach (var d in affectedDrivers)
+            {
+                await _userRepo.UpdateFleetManagerAssignmentAsync(d.Id, null);
+                if (actorUserId != null && actorEmail != null && actorRole != null)
+                {
+                    await _logsRepo.CreateAsync(new ActivityLog
+                    {
+                        Timestamp = DateTime.UtcNow,
+                        Action = "driver unassign",
+                        EntityType = "driver",
+                        EntityId = d.Id,
+                        UserId = actorUserId,
+                        UserName = actorEmail,
+                        Message =
+                           $"Driver {d.FullName} (id:{d.Id}) unassigned from fleet manager {fm.FullName} (id:{fm.Id})"
+                    });
+                }
+            }
+
+            // ------------------------------------------------------------
+            // 2. Unassign trucks
+            // ------------------------------------------------------------
+            var trucks = await _truckRepo.GetAllAsync();
+            var affectedTrucks = trucks
+                .Where(t => t.AssignedFleetManagerId == fm.Id)
+                .ToList();
+
+            foreach (var t in affectedTrucks)
+            {
+                await _truckRepo.AssignToFleetManagerAsync(t.Id, null);
+                if (actorUserId != null && actorEmail != null && actorRole != null)
+                {
+                    await _logsRepo.CreateAsync(new ActivityLog
+                    {
+                        Timestamp = DateTime.UtcNow,
+                        Action = "truck unassign",
+                        EntityType = "truck",
+                        EntityId = t.Id,
+                        UserId = actorUserId,
+                        UserName = actorEmail,
+                        Message =
+                            $"Truck {t.TruckNumber} (id:{t.Id}) unassigned from fleet manager {fm.FullName} (id:{fm.Id})"
+                    });
+                }
+            }
+
+            // ------------------------------------------------------------
+            // 3. Cancel UPCOMING trips only
+            // ------------------------------------------------------------
+            var trips = await _tripRepo.GetByFleetManager(fm.Id);
+
+            var upcomingTrips = trips
+                .Where(t => string.Equals(t.Status, "Upcoming", StringComparison.OrdinalIgnoreCase))
+                .ToList();
+
+            foreach (var trip in upcomingTrips)
+            {
+                trip.Status = "Cancelled";
+                trip.CancellationReason = "Fleet manager deleted";
+
+                await _tripRepo.Update(trip.Id, trip);
+
+                if (actorUserId != null && actorEmail != null && actorRole != null)
+                {
+                    await _logsRepo.CreateAsync(new ActivityLog
+                    {
+                        Timestamp = DateTime.UtcNow,
+                        Action = "trip cancel",
+                        EntityType = "trip",
+                        EntityId = trip.Id,
+                        UserId = actorUserId,
+                        UserName = actorEmail,
+                        Message =
+                            $"Trip (id:{trip.Id}) cancelled because fleet manager {fm.FullName} (id:{fm.Id}) was deleted"
+                    });
+                }
+            }
+
+            // ------------------------------------------------------------
+            // 4. Delete fleet manager
+            // ------------------------------------------------------------
+            await _userRepo.DeleteAsync(fm.Id);
+
+            // ------------------------------------------------------------
+            // 5. Activity log
+            // ------------------------------------------------------------
+
+            if (actorUserId != null && actorEmail != null && actorRole != null)
             {
                 await _logsRepo.CreateAsync(new ActivityLog
                 {
                     Timestamp = DateTime.UtcNow,
                     Action = "fleet manager delete",
                     EntityType = "fleet manager",
-                    EntityId = existing.Id,
-                    UserId = userId,
-                    UserName = email,
+                    EntityId = fm.Id,
+                    UserId = actorUserId,
+                    UserName = actorEmail,
                     Message =
-                        $"{email} ({role} : id({userId})) deleted fleet manager {existing.FullName} (id:{existing.Id})"
+                        $"{actorEmail} ({actorRole} : id({actorUserId})) deleted fleet manager {fm.FullName} (id:{fm.Id}); " +
+                        $"drivers unassigned: {affectedDrivers.Count}, " +
+                        $"trucks unassigned: {affectedTrucks.Count}, " +
+                        $"upcoming trips cancelled: {upcomingTrips.Count}"
                 });
             }
 
-            return Ok(new { message = "Fleet manager deleted successfully" });
+            // ------------------------------------------------------------
+            // 6. Response
+            // ------------------------------------------------------------
+            return Ok(new
+            {
+                message = "Fleet manager deleted successfully",
+                driversUnassigned = affectedDrivers.Count,
+                trucksUnassigned = affectedTrucks.Count,
+                tripsCancelled = upcomingTrips.Count
+            });
         }
+
     }
 }
