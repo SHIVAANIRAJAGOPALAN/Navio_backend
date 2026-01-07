@@ -1522,23 +1522,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Shivaani\\.nuget\\packages\\": {},
+    "C:\\Users\\varal\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shivaani\\Downloads\\Navio_Backend (2)\\Navio_Backend\\NavioBackend.csproj",
+      "projectUniqueName": "D:\\navio_final\\Navio_Backend\\Navio_Backend\\NavioBackend.csproj",
       "projectName": "NavioBackend",
-      "projectPath": "C:\\Users\\Shivaani\\Downloads\\Navio_Backend (2)\\Navio_Backend\\NavioBackend.csproj",
-      "packagesPath": "C:\\Users\\Shivaani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shivaani\\Downloads\\Navio_Backend (2)\\Navio_Backend\\obj\\",
+      "projectPath": "D:\\navio_final\\Navio_Backend\\Navio_Backend\\NavioBackend.csproj",
+      "packagesPath": "C:\\Users\\varal\\.nuget\\packages\\",
+      "outputPath": "D:\\navio_final\\Navio_Backend\\Navio_Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Shivaani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\varal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1623,7 +1623,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
